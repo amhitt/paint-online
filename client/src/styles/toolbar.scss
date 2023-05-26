@@ -1,0 +1,41 @@
+@import "./variables";
+
+.toolbar {
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  &__btn {
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-size: cover;
+    margin-left: 10px;
+
+  }
+  .brush {
+    //background: url('../assets/img/vector.png') no-repeat center center;
+  }
+
+  .toolbar_block{
+    display: flex;
+    align-items: center;
+  }
+}
+
+.setting-bar {
+  margin-top: 40px;
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+  border-top: none;
+  position: absolute;
+}
